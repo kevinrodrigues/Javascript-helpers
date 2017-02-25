@@ -1,9 +1,13 @@
-# Javascript helpers
+# Pure Javascript helper functions
+
+## Table of Contents
+
+  1. [Arrays](#arrays)
 
 ## Arrays
 
   <a name="array-flatten"></a><a name="2.1"></a>
-  - [2.1](#rarray-flatten)
+  - [1.1](#array-flatten)
 
 
     ```javascript
