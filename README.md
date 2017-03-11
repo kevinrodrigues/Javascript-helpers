@@ -3,8 +3,8 @@
 ## Table of Contents
 
   1. [Arrays](#arrays)
-    1.1 [Flatten a simple Array](#array-flatten)
-    1.2 [Remove all falsy values from Array](#array-filter-falsy-values)
+  1.1 [Flatten a simple Array](#array-flatten)
+  1.2 [Remove all falsy values from Array](#array-filter-falsy-values)
 
 ## Arrays
 
