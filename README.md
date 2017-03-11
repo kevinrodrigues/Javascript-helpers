@@ -2,7 +2,7 @@
 
 ## Table of Contents.
 
-  *Array helpers*
+  *[Array helpers](#array-flatten)*
 
   1. [Flatten a simple Array](#array-flatten)
   1. [Remove all falsy values from Array](#array-filter-falsy-values)
@@ -10,7 +10,7 @@
   1. [Get first element in array](#array-return-first-array)
   1. []()
 
-## Arrays
+## Arrays helpers
 
   <a name="array-flatten"></a><a name="2.1"></a>
   - [1](#array-flatten)  **Flatten a simple array (1 Level deep)**.
