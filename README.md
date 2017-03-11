@@ -6,6 +6,7 @@
   1. [Remove all falsy values from Array](#array-filter-falsy-values)
   1. [Get last element in array](#array-return-last-array)
   1. [Get first element in array](#array-return-first-array)
+  1. []()
 
 ## Arrays
 
