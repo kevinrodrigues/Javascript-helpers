@@ -1,6 +1,8 @@
 # Pure Javascript helper functions
 
-## Table of Contents
+## Table of Contents.
+
+  ### Arrays
 
   1. [Flatten a simple Array](#array-flatten)
   1. [Remove all falsy values from Array](#array-filter-falsy-values)
