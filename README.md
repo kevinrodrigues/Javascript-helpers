@@ -2,7 +2,7 @@
 
 ## Table of Contents.
 
-  ### Arrays
+  *Array helpers*
 
   1. [Flatten a simple Array](#array-flatten)
   1. [Remove all falsy values from Array](#array-filter-falsy-values)
