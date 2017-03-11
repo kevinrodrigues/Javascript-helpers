@@ -63,7 +63,7 @@
     ```
 
   <a name="array-return-first-array"></a><a name="2.1"></a>
-  - [4](#array-return-first-array) **Get last element in array**.
+  - [4](#array-return-first-array) **Get first element in array**.
 
 
     ```javascript
