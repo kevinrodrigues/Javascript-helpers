@@ -7,15 +7,21 @@
 ## Arrays
 
   <a name="array-flatten"></a><a name="2.1"></a>
-  - [1.1](#array-flatten)
+  - [1.1](#array-flatten) Flatten a simple array, (1 Level deep)
 
 
     ```javascript
-    // bad
-    var a = 1;
-    var b = 2;
+    // Flatten Array ES5
+    var simpleArray = [['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']];
 
-    // good
-    const a = 1;
-    const b = 2;
+    simpleArray.reduce(function(a, b) {
+      return a.concat(b);
+    }, []);
+
+
+    // Flatten Array ES6
+    var simpleArray = [['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']];
+
+    simpleArray.reduce((a, b) => a.concat(b), []);
+
     ```
