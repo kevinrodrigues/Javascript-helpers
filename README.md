@@ -24,7 +24,7 @@
     // Flatten Array ES6
     var simpleArray = [['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']];
 
-    simpleArray.reduce((a, b) => a.concat(b), []); //["a", "b", "c", 1, 2, 3, "x", "y", "z"]
+    simpleArray.reduce((a, b) => a.concat(b), []); // ["a", "b", "c", 1, 2, 3, "x", "y", "z"]
 
     ```
 
@@ -37,13 +37,13 @@
     var simpleFalsyArray = ['a', '', 'c', undefined, null, 0];
 
     simpleFalsyArray.filter(function(value) {
-      return !!value; //["a", "c"]
+      return !!value; // ["a", "c"]
     });
 
 
     // Flatten Array ES6
     var simpleFalsyArray = ['a', '', 'c', undefined, null, 0];
 
-    simpleFalsyArray.filter((value) => !!value); //["a", "c"]
+    simpleFalsyArray.filter((value) => !!value); // ["a", "c"]
 
     ```
