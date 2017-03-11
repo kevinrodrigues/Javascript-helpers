@@ -5,6 +5,7 @@
   1. [Arrays](#arrays)
   1. [Flatten a simple Array](#array-flatten)
   1. [Remove all falsy values from Array](#array-filter-falsy-values)
+  1. [Get last element in array](#array-return-last-array)
 
 ## Arrays
 
@@ -22,7 +23,7 @@
 
 
     // Flatten Array ES6
-    var simpleArray = [['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']];
+    let simpleArray = [['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']];
 
     simpleArray.reduce((a, b) => a.concat(b), []); // ["a", "b", "c", 1, 2, 3, "x", "y", "z"]
 
@@ -42,8 +43,20 @@
 
 
     // Flatten Array ES6
-    var simpleFalsyArray = ['a', '', 'c', undefined, null, 0];
+    let simpleFalsyArray = ['a', '', 'c', undefined, null, 0];
 
     simpleFalsyArray.filter((value) => !!value); // ["a", "c"]
+
+    ```
+
+  <a name="array-return-last-array"></a><a name="2.1"></a>
+  - [1.3](#array-return-last-array) **Get last element in array**.
+
+
+    ```javascript
+    // Flatten Array ES5
+    var simpleLastArray = ['foo', 'baz', 'fizz'];
+
+    simpleLastArray[simpleLastArray.length - 1];
 
     ```
