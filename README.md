@@ -7,7 +7,7 @@
 ## Arrays
 
   <a name="array-flatten"></a><a name="2.1"></a>
-  - [1.1](#array-flatten) ### Flatten a simple array (1 Level deep).
+  - [1.1](#array-flatten)  **Flatten a simple array (1 Level deep)**.
 
 
     ```javascript
@@ -27,7 +27,7 @@
     ```
 
   <a name="array-filter-falsy-values"></a><a name="2.1"></a>
-  - [1.2](#array-filter-falsy-values) ### Remove all falsy values.
+  - [1.2](#array-filter-falsy-values) **Remove all falsy values**.
 
 
     ```javascript
