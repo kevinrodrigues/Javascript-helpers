@@ -8,7 +8,7 @@
   1. [Remove all falsy values from Array](#array-filter-falsy-values)
   1. [Get last element in array](#array-return-last-array)
   1. [Get first element in array](#array-return-first-array)
-  1. []()
+  1. [Remove given array items](#array-remove-given-array-items)
 
 ## Array helpers
 
@@ -73,5 +73,40 @@
     var simpleLastArray = ['foo', 'baz', 'fizz'];
 
     simpleLastArray[0]; // foo
+
+    ```
+
+  <a name="#array-remove-given-array-items"></a><a name="2.1"></a>
+  - [5](#array-remove-given-array-items) **Remove given array items**.
+
+
+    ```javascript
+    // Remove given Array ES5
+    function removeGivenArrayValue(array, valueToRemove) {
+        var array,
+            i;
+
+        for (i = array.length; i--;) {
+            if (array[i] === valueToRemove) {
+                array.splice(i, 1);
+            } 
+        }
+
+        return array;
+    }
+
+    // Remove given Array ES6
+    let removeGivenArrayValue = (array, valueToRemove) => {
+        var array,
+              i;
+
+          for (i = array.length; i--;) {
+              if (array[i] === valueToRemove) {
+                  array.splice(i, 1);
+              } 
+          }
+
+          return array;
+    }
 
     ```
