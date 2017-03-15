@@ -95,6 +95,8 @@
         return array;
     }
 
+    removeGivenArrayValue(['foo', 'baz', 'fizz'], 'fizz'); // ['foo', 'baz']
+
     // Remove given Array ES6
     let removeGivenArrayValue = (array, valueToRemove) => {
         var array,
@@ -108,5 +110,7 @@
 
           return array;
     }
+
+    removeGivenArrayValue([1, 2, 3], 1); // [2, 3]
 
     ```
