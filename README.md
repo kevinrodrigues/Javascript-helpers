@@ -99,10 +99,9 @@
 
     // Remove given Array ES6
     let removeGivenArrayValue = (array, valueToRemove) => {
-        var array,
-              i;
+        let array;
 
-          for (i = array.length; i--;) {
+          for (let i = array.length; i--;) {
               if (array[i] === valueToRemove) {
                   array.splice(i, 1);
               } 
